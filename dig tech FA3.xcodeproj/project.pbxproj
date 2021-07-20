@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		5F01B387266F283800E24738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01B386266F283800E24738 /* AppDelegate.swift */; };
 		5F01B389266F283800E24738 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01B388266F283800E24738 /* SceneDelegate.swift */; };
-		5F01B38B266F283800E24738 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01B38A266F283800E24738 /* ContentView.swift */; };
 		5F01B38D266F283A00E24738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F01B38C266F283A00E24738 /* Assets.xcassets */; };
-		5F01B390266F283A00E24738 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F01B38F266F283A00E24738 /* Preview Assets.xcassets */; };
 		5F01B393266F283A00E24738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F01B391266F283A00E24738 /* LaunchScreen.storyboard */; };
+		5F4F6AA926927FAB00CDBBD9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F6AA826927FAB00CDBBD9 /* LocationManager.swift */; };
+		5F4F6AAC26927FC300CDBBD9 /* WeatherIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F6AAB26927FC300CDBBD9 /* WeatherIcon.swift */; };
+		5F4F6AB12692891600CDBBD9 /* Main-weather-screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F6AB02692891600CDBBD9 /* Main-weather-screen.swift */; };
+		5F7C1BC0267B2ED600069127 /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C1BBF267B2ED600069127 /* WeekDay.swift */; };
+		5F7C1BC8267B4E9E00069127 /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C1BC7267B4E9E00069127 /* HourlyWeather.swift */; };
+		5F7C1BCB267B4ED200069127 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5F7C1BCA267B4ED200069127 /* Fonts */; };
+		5FB1F02A2676EF41000B8EF7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1F0292676EF41000B8EF7 /* Weather.swift */; };
+		5FB1F02E2676EF4A000B8EF7 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1F02D2676EF4A000B8EF7 /* DailyWeather.swift */; };
+		5FB1F0372676F478000B8EF7 /* weathermanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1F0362676F478000B8EF7 /* weathermanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F01B383266F283800E24738 /* dig tech FA3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dig tech FA3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F01B386266F283800E24738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F01B388266F283800E24738 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F01B38A266F283800E24738 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F01B38C266F283A00E24738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F01B38F266F283A00E24738 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F01B392266F283A00E24738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F01B394266F283A00E24738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4F6AA826927FAB00CDBBD9 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = ../../../../../Downloads/FA3_Weather/FA3_Weather/Models/LocationManager.swift; sourceTree = "<group>"; };
+		5F4F6AAB26927FC300CDBBD9 /* WeatherIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherIcon.swift; path = ../../../../../Downloads/FA3_Weather/FA3_Weather/Models/WeatherIcon.swift; sourceTree = "<group>"; };
+		5F4F6AB02692891600CDBBD9 /* Main-weather-screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Main-weather-screen.swift"; path = "../../../../../Downloads/FA3_Weather/FA3_Weather/Views/Main-weather-screen.swift"; sourceTree = "<group>"; };
+		5F7C1BBF267B2ED600069127 /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		5F7C1BC7267B4E9E00069127 /* HourlyWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourlyWeather.swift; path = ../../../FA3_Weather/FA3_Weather/Models/HourlyWeather.swift; sourceTree = "<group>"; };
+		5F7C1BCA267B4ED200069127 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../FA3_Weather/FA3_Weather/Fonts; sourceTree = "<group>"; };
+		5FB1F0292676EF41000B8EF7 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		5FB1F02D2676EF4A000B8EF7 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		5FB1F0362676F478000B8EF7 /* weathermanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathermanager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,21 +72,36 @@
 			children = (
 				5F01B386266F283800E24738 /* AppDelegate.swift */,
 				5F01B388266F283800E24738 /* SceneDelegate.swift */,
-				5F01B38A266F283800E24738 /* ContentView.swift */,
+				5FE9B60B267974540005BC2A /* Views */,
+				5FB1F0282676EE8C000B8EF7 /* Models */,
 				5F01B38C266F283A00E24738 /* Assets.xcassets */,
+				5F7C1BCA267B4ED200069127 /* Fonts */,
 				5F01B391266F283A00E24738 /* LaunchScreen.storyboard */,
 				5F01B394266F283A00E24738 /* Info.plist */,
-				5F01B38E266F283A00E24738 /* Preview Content */,
 			);
 			path = "dig tech FA3";
 			sourceTree = "<group>";
 		};
-		5F01B38E266F283A00E24738 /* Preview Content */ = {
+		5FB1F0282676EE8C000B8EF7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5F01B38F266F283A00E24738 /* Preview Assets.xcassets */,
+				5FB1F0292676EF41000B8EF7 /* Weather.swift */,
+				5FB1F02D2676EF4A000B8EF7 /* DailyWeather.swift */,
+				5F7C1BC7267B4E9E00069127 /* HourlyWeather.swift */,
+				5FB1F0362676F478000B8EF7 /* weathermanager.swift */,
+				5F4F6AA826927FAB00CDBBD9 /* LocationManager.swift */,
+				5F7C1BBF267B2ED600069127 /* WeekDay.swift */,
+				5F4F6AAB26927FC300CDBBD9 /* WeatherIcon.swift */,
 			);
-			path = "Preview Content";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FE9B60B267974540005BC2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F4F6AB02692891600CDBBD9 /* Main-weather-screen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F01B393266F283A00E24738 /* LaunchScreen.storyboard in Resources */,
-				5F01B390266F283A00E24738 /* Preview Assets.xcassets in Resources */,
 				5F01B38D266F283A00E24738 /* Assets.xcassets in Resources */,
+				5F7C1BCB267B4ED200069127 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +174,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7C1BC0267B2ED600069127 /* WeekDay.swift in Sources */,
+				5F4F6AAC26927FC300CDBBD9 /* WeatherIcon.swift in Sources */,
+				5FB1F02E2676EF4A000B8EF7 /* DailyWeather.swift in Sources */,
+				5F4F6AB12692891600CDBBD9 /* Main-weather-screen.swift in Sources */,
+				5F7C1BC8267B4E9E00069127 /* HourlyWeather.swift in Sources */,
+				5FB1F02A2676EF41000B8EF7 /* Weather.swift in Sources */,
+				5FB1F0372676F478000B8EF7 /* weathermanager.swift in Sources */,
 				5F01B387266F283800E24738 /* AppDelegate.swift in Sources */,
 				5F01B389266F283800E24738 /* SceneDelegate.swift in Sources */,
-				5F01B38B266F283800E24738 /* ContentView.swift in Sources */,
+				5F4F6AA926927FAB00CDBBD9 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"dig tech FA3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dig tech FA3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"dig tech FA3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "dig tech FA3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
